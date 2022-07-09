@@ -1,0 +1,48 @@
+<script>
+const produto = prompt(`Informe o produto: `)
+const preco = Number(prompt(`Informe o preço: `))
+
+const desc = preco * 0.90
+const parc = preco /3
+
+alert(`Promoção de ${produto}!
+---------------------------------
+À vista R$: ${desc.toFixed(2)}
+Ou em 3x de R$: ${parc.toFixed(2)}`)
+
+
+</script>
+------------------------------------------
+<script>
+const conta = Number(prompt(`Informe o valor da Conta: `))
+const clientes = Number(prompt(`Quantos pagantes?`))
+
+
+const div = conta / clientes
+
+alert(`O valor a ser pago é de R$: ${div.toFixed(2)}`)
+
+</script>
+-------------------------------------------------------
+<script>
+ const num = Number(prompt(`Informe um número e descubra seus vizinhos: `))
+ 
+ const anterior = num -1
+ const posterior = num +1
+ 
+ alert( `O número que você informou foi: ${num}
+ 
+ ${anterior},${num},${posterior}`)
+
+</script>
+--------------------------------------------------
+<script>
+	const nome = prompt(`Informe seu nome:`)
+    
+    const nota1 = Number(prompt(`Informe a primeira nota: `))
+    const nota2 = Number(prompt(`Informe a segunda nota: `))
+    
+    const media = (nota1 + nota2) /2
+	
+    alert(`A sua média é: ${media.toFixed(2)}`)
+</script>

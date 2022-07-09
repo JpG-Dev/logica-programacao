@@ -1,0 +1,31 @@
+Exercício
+
+------------------------------------------------
+
+Criar um programa para cadastrar filmes (titulos, generos, duracoes em minutos).
+
+19:57
+1. Incluir Filmes
+
+2. Listar Filmes
+
+3. Pesquisar por Gênero
+
+4. Pesquisar por Duração
+
+5. Excluir Filme
+
+6. Estatística dos Filmes Cadastrados
+
+7. Finalizar
+
+ 1  Top Gun                 Aventura         125 min
+
+19:58
+Comedia
+
+19:58
+Duração Máxima: 100
+
+19:59
+Nº do Filme:
